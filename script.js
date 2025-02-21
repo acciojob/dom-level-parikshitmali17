@@ -1,12 +1,15 @@
 //your JS code here. If required.
 
-let element=document.getElementByid("#level")
+function f(level) {
+	let element=document.getElementByid("#level")
 let level=0;
 if(element){
 	level++;
 	element= element.parentElement;
 }else if(element.nodeName=="html"){
 	return
+}
+	return level
 }
 //const parentName=document.querySelector("#level").parentElement.nodeName;
 
